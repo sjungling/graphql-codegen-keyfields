@@ -1,0 +1,7 @@
+overwrite: true
+schema: "schema.graphql"
+documents: "operations.graphql"
+generates:
+  output.ts:
+    plugins:
+      - "typescript-apollo-client-helpers"
